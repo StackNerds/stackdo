@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo span {
+    color: white;
+    background-color:#000;
+    padding:2px;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+
+form input {
+    height: 45px;
+    border: 2px solid #000;
+    width: 100%;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #000;
+    border:1px solid #000;
+    font-weight: 600;
+    width: 150px;
+    height: 45px;
+}
+
+.btn-custom:hover {
+    background-color: #333;
+}
+
+#error-alert {
+    display:none;
+}
